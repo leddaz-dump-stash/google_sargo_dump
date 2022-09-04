@@ -1,0 +1,6 @@
+lcd.ko
+synaptics_dsx_core.ko
+synaptics_dsx_fw_update.ko
+synaptics_dsx_rmi_dev.ko
+synaptics_dsx_test_reporting.ko
+wlan.ko
