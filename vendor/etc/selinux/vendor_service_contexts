@@ -1,0 +1,10 @@
+#line 1 "device/google/bonito-sepolicy/vendor/qcom/common/service_contexts"
+com.fingerprints.extension.IFingerprintNavigation    u:object_r:fingerprint_service:s0
+com.qualcomm.qti.uceservice                          u:object_r:imsuce_service:s0
+#line 1 "hardware/google/pixel-sepolicy/powerstats/service_contexts"
+power.stats-vendor    u:object_r:hal_power_stats_vendor_service:s0
+#line 1 "hardware/google/pixel-sepolicy/vibrator/common/service_contexts"
+android.hardware.vibrator.IVibrator/dual                             u:object_r:hal_vibrator_service:s0
+#line 1 "hardware/google/pixel-sepolicy/citadel/service_contexts"
+android.hardware.security.keymint.IKeyMintDevice/strongbox      u:object_r:hal_keymint_service:s0
+android.hardware.security.sharedsecret.ISharedSecret/strongbox  u:object_r:hal_sharedsecret_service:s0
